@@ -289,7 +289,4 @@ methods.forEach(function(method){
 route[method].apply(route, slice.call(arguments, 1));
 ```
 是的，就是这里执行的  
-
-----
-**未经同意，禁止转载**  
-**by chainhelen**  
+ 
