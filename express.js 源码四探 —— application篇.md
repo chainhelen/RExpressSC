@@ -363,7 +363,3 @@ app.render 渲染传参app.render('email', { name: 'Tobi' }, () => {})
 ----
 #### 参考  
 [REST笔记(五):你应该知道的HTTP头------ETag](http://www.cnblogs.com/tyb1222/archive/2011/12/24/2300246.html)
-
-----
-**未经同意，禁止转载**  
-**by chainhelen** 
