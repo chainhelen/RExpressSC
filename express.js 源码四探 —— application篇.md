@@ -40,8 +40,11 @@ this.enable('x-powered-by');
 ```
 **三**  
 etag是跟文件相关的一种标记，上篇讲到了etag的作用  
-一种是weak精确到秒级的，可以避免用户同一秒中不停刷新每次都重新下载资源  
-另一种strong的精确到毫秒  
+2017.04.14 以下说法有误，我翻了一下etag、wetag和etag库的源码，发现express使用的weak 生成的字符串只是比strong的 多了"w /"  
+
+/////*一种是weak精确到秒级的，可以避免用户同一秒中不停刷新每次都重新下载资源  
+另一种strong的精确到毫秒*////  
+
 ```
 this.set('etag', 'weak');
 ```
